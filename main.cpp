@@ -1,6 +1,6 @@
 #include <iostream>
-#include "node.h"
-#include "graph_class.h"
+#include "node.hpp"
+#include "graph_class.hpp"
 
 int main()
 {

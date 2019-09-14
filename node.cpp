@@ -1,5 +1,5 @@
 #include<string> // for string class
-#include "node.h"
+#include "node.hpp"
 
 Node::Node() : num(0) {} // constructor initialization - not using assignemnt
                         // initialization is only done in the constructor

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string> // for string class
 #include <time.h>
-#include "graph_class.h"
+#include "graph_class.hpp"
 
 Graph::Graph(int nodes)
 {
