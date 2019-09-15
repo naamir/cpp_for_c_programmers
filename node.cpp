@@ -1,14 +1,22 @@
 #include<string> // for string class
 #include "node.hpp"
 
-Node::Node() : num(0) {} // constructor initialization - not using assignemnt
+Node::Node() : index(0) {} // constructor initialization - not using assignemnt
                         // initialization is only done in the constructor
-Node::Node(int num) : num(num){}
+Node::Node(int num) : index(num){}
 Node::~Node() {}  // destructor
 
-int Node::getNum()
+int Node::getIndex()
 {
-    return this->num;
+    return this->index;
 }
 
- 
+void Node::setval(bool val)
+{
+    this->val = val;
+}
+
+bool Node::getval()
+{
+    return this->val;
+}
